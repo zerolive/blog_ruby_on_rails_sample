@@ -32,7 +32,7 @@ development:
   host: localhost
   encoding: UTF8
 
- production:
+production:
   adapter: postgresql
   database: <%= ENV['DB_NAME'] %>
   username: <%= ENV['DB_USER'] %>
